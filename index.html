@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentFaith - Pack de Wallpapers Motivacionais</title>
+    <meta name="description" content="+150 wallpapers de motivação e fé para transformar sua tela e te inspirar todos os dias. Acesso imediato e vitalício.">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        background: '#000000',
+                        foreground: '#ffffff',
+                        card: '#111111',
+                        border: '#222222',
+                    },
+                    animation: {
+                        'marquee-continuous': 'marquee 35s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0)' },
+                            '100%': { transform: 'translateX(-50%)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee-track {
+            display: flex;
+            width: max-content;
+            animation: marquee 35s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .wallpaper-card {
+            width: 175px;
+            aspect-ratio: 9 / 17;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #000;
+            flex-shrink: 0;
+        }
+        .wallpaper-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-background text-foreground flex flex-col">
+
+    <!-- Cabeçalho Fixo -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-border/30">
+        <div class="container mx-auto px-4 h-14 flex items-center justify-between">
+            <div class="w-[60px]"></div>
+            <span class="text-2xl font-extrabold tracking-tight text-white select-none">SilentFaith</span>
+            <div class="w-[60px]"></div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container mx-auto px-4 pt-20 pb-20 flex-1">
+
+        <!-- Título Principal -->
+        <section class="flex flex-col items-center text-center mt-2 mb-8">
+            <h1 class="text-2xl md:text-5xl font-medium tracking-tight leading-tight text-white/80">
+                <span>+150 Wallpapers para te<br>motivar todos os dias</span>
+            </h1>
+        </section>
+
+        <!-- Carrossel Infinito de Wallpapers -->
+        <section class="mb-8 -mx-4 overflow-hidden">
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Grupo 1 -->
+                    <div class="flex gap-4 mr-4">
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/70bcd587-757c-410b-8ace-b2cda0414638/wallpaper-deus-vejo-voce-tentando.png" alt="Wallpaper 1" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/3cad9039-e5a6-4983-af7d-26d404f159d3/wallpaper-onde-vou-chegar.png" alt="Wallpaper 2" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/d3f87ff2-1ef1-4fc5-b5d0-08a5f04b4569/wallpaper-um-dia-chegar-novo.png" alt="Wallpaper 3" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/b296dce7-bc6f-421b-afb5-f64aae04536e/wallpaper-f1-deus.png" alt="Wallpaper 4" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/dbf5977a-6081-4080-b7f1-f7599b7a0eaf/wallpaper-sem-deus-nem-tente.png" alt="Wallpaper 5" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/08b93c8d-c44d-4f21-ae67-badba358b730/wallpaper-eu-escolho-ser-rico.png" alt="Wallpaper 6" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/a5a4e623-f736-433a-babf-cf3e31b7d21e/wallpaper-sonhe-alto-deus.png" alt="Wallpaper 7" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/39e17db9-aece-4a43-bccb-baa0fa83619a/wallpaper-911-motivos.png" alt="Wallpaper 8" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/e85ae085-9bc6-42f9-ac69-f1a6fd6773e2/wallpaper-mil-vezes.png" alt="Wallpaper 9" loading="eager"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/33ed7de4-d070-442f-9603-00e5a9e19379/wallpaper-flua-deus-quiser.png" alt="Wallpaper 10" loading="eager"></div>
+                        <div class="wallpaper-card flex items-center justify-center bg-card">
+                            <span class="text-3xl font-semibold text-muted-foreground">+150</span>
+                        </div>
+                    </div>
+                    <!-- Grupo 2 (duplicado para loop infinito) -->
+                    <div class="flex gap-4 mr-4" aria-hidden="true">
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/70bcd587-757c-410b-8ace-b2cda0414638/wallpaper-deus-vejo-voce-tentando.png" alt="Wallpaper 1" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/3cad9039-e5a6-4983-af7d-26d404f159d3/wallpaper-onde-vou-chegar.png" alt="Wallpaper 2" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/d3f87ff2-1ef1-4fc5-b5d0-08a5f04b4569/wallpaper-um-dia-chegar-novo.png" alt="Wallpaper 3" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/b296dce7-bc6f-421b-afb5-f64aae04536e/wallpaper-f1-deus.png" alt="Wallpaper 4" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/dbf5977a-6081-4080-b7f1-f7599b7a0eaf/wallpaper-sem-deus-nem-tente.png" alt="Wallpaper 5" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/08b93c8d-c44d-4f21-ae67-badba358b730/wallpaper-eu-escolho-ser-rico.png" alt="Wallpaper 6" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/a5a4e623-f736-433a-babf-cf3e31b7d21e/wallpaper-sonhe-alto-deus.png" alt="Wallpaper 7" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/39e17db9-aece-4a43-bccb-baa0fa83619a/wallpaper-911-motivos.png" alt="Wallpaper 8" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/e85ae085-9bc6-42f9-ac69-f1a6fd6773e2/wallpaper-mil-vezes.png" alt="Wallpaper 9" loading="lazy"></div>
+                        <div class="wallpaper-card"><img src="https://millionairelux.com/__l5e/assets-v1/33ed7de4-d070-442f-9603-00e5a9e19379/wallpaper-flua-deus-quiser.png" alt="Wallpaper 10" loading="lazy"></div>
+                        <div class="wallpaper-card flex items-center justify-center bg-card">
+                            <span class="text-3xl font-semibold text-muted-foreground">+150</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prova Social / Depoimentos -->
+        <section class="mb-10">
+            <h2 class="text-center text-xl font-semibold mb-6 text-white/90">O que nossos clientes dizem</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Depoimento 1 -->
+                <div class="bg-card border border-border rounded-lg p-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-semibold">L</span>
+                        <span class="text-sm text-gray-400">Leandro</span>
+                        <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded-full">Comprador verificado</span>
+                    </div>
+                    <p class="text-sm text-gray-300">"Curti muito, tô usando no celular e no pc."</p>
+                    <div class="text-yellow-400 text-sm mt-1">★★★★★</div>
+                </div>
+                <!-- Depoimento 2 -->
+                <div class="bg-card border border-border rounded-lg p-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-semibold">K</span>
+                        <span class="text-sm text-gray-400">Kauan</span>
+                        <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded-full">Comprador verificado</span>
+                    </div>
+                    <p class="text-sm text-gray-300">"Qualidade absurda, as frases ajudam demais no dia a dia."</p>
+                    <div class="text-yellow-400 text-sm mt-1">★★★★★</div>
+                </div>
+                <!-- Depoimento 3 -->
+                <div class="bg-card border border-border rounded-lg p-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-semibold">E</span>
+                        <span class="text-sm text-gray-400">Eduardo</span>
+                        <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded-full">Comprador verificado</span>
+                    </div>
+                    <p class="text-sm text-gray-300">"Top demais, cada dia uso um wallpaper diferente."</p>
+                    <div class="text-yellow-400 text-sm mt-1">★★★★★</div>
+                </div>
+                <!-- Depoimento 4 -->
+                <div class="bg-card border border-border rounded-lg p-4">
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="font-semibold">R</span>
+                        <span class="text-sm text-gray-400">Rafael</span>
+                        <span class="text-xs bg-green-900 text-green-300 px-2 py-0.5 rounded-full">Comprador verificado</span>
+                    </div>
+                    <p class="text-sm text-gray-300">"Wallpapers de qualidade, vale cada centavo."</p>
+                    <div class="text-yellow-400 text-sm mt-1">★★★★★</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Preço / CTA -->
+        <section class="text-center mb-10">
+            <div class="bg-card border border-border rounded-xl p-6 max-w-md mx-auto">
+                <h2 class="text-2xl font-bold mb-2">Pack completo +150 Wallpapers</h2>
+                <p class="text-gray-400 text-sm mb-4">Acesso imediato e vitalício</p>
+                <div class="text-4xl font-extrabold mb-2">R$ 19,90</div>
+                <p class="text-gray-500 text-xs mb-6">Pagamento único • Acesso imediato</p>
+                <a href="#" class="block w-full bg-white text-black font-semibold py-3 rounded-lg hover:bg-gray-200 transition">
+                    Quero meu pack agora
+                </a>
+                <p class="text-xs text-gray-500 mt-3">Compra segura • Garantia de 7 dias</p>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="text-center text-xs text-gray-600 border-t border-border pt-6">
+            <p>© 2025 SilentFaith. Todos os direitos reservados.</p>
+            <p class="mt-1">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</p>
+        </footer>
+
+    </div>
+
+    <!-- Script para garantir que o carrossel funcione suavemente (opcional) -->
+    <script>
+        // O carrossel já é animado via CSS, mas podemos adicionar um controle de pausa ao hover, se desejado.
+        document.addEventListener('DOMContentLoaded', function() {
+            const marqueeTrack = document.querySelector('.marquee-track');
+            if (marqueeTrack) {
+                marqueeTrack.addEventListener('mouseenter', () => {
+                    marqueeTrack.style.animationPlayState = 'paused';
+                });
+                marqueeTrack.addEventListener('mouseleave', () => {
+                    marqueeTrack.style.animationPlayState = 'running';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
